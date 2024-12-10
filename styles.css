@@ -1,0 +1,80 @@
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(243, 243, 255);
+    border-radius: 10px 50px;
+    margin: 20px;
+}
+
+.box_Left svg{
+    font-size: 90px;
+    margin: 10px;
+}
+
+.box_Right{
+    display: flex;
+    align-items:center ;
+}
+
+.bb {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(20, 168, 70);
+    margin-right: 30px;
+    opacity: 0.9;
+}
+.cc {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    margin-right: 30px;
+    opacity: 0.9;
+}
+.vv {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(207, 219, 29);
+    margin-right: 30px;
+    opacity: 0.9;
+}
+.nn {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(247, 0, 0);
+    margin-right: 30px;
+    opacity: 0.9;
+}
+
+.box_Right_Right button{
+    background-color: rgb(175, 29, 204);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    border-radius: 5px 30px;
+    padding: 10px 20px;
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 24px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin: 8px;
+}
+
+.box_Left_Right svg{
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    
+}
+
+.box_Left_Right button{
+    border-radius: 20px;
+    padding-bottom: 10px;
+    border: 0cap;
+    background-color: rgb(162, 189, 189);
+}
+
+.boxes span{
+    opacity: 0.8;
+    margin-right: 30px;
+}
